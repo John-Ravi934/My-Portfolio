@@ -1,0 +1,166 @@
+*{
+    .poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+}
+
+
+.banner{
+    background-image: url(/images/ravi.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding:200px 0;
+}
+
+.about-padding{
+  padding-top:150px;
+  padding-bottom:50px;
+}
+.skill-padding{
+  padding-top:100px;
+  padding-bottom:50px;
+}
+.card-container-padding{
+  padding-top:50px;
+  padding-bottom:200px;
+}
+.contact-padding{
+  padding-top:66px;
+  padding-bottom:65px;
+}
+
+
+/* .col-md-2{
+  margin-right:35px;
+} */
+
+ * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 20px;
+    }
+
+    .nav-home{
+      color: none;
+    }
+    .nav-item :hover{
+       
+      background-color: #555;
+      color: #f9f9f9;
+    }
+     
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .card-container {
+      display: grid;
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: all 0.4s ease;
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 50%;
+      height: auto;
+      border-radius: 8px;
+      margin: auto;
+    }
+
+    .card h3 {
+      margin-top: 15px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    /* Hover animations per card */
+    .card:nth-child(1):hover {
+      transform: translateY(-10px);
+    }
+
+    .card:nth-child(2):hover {
+      transform: scale(1.05);
+    }
+
+    .card:nth-child(3):hover {
+      /* transform: rotate(2deg); */
+      transform: translateY(-10px);
+    }
+
+    .card:nth-child(4):hover {
+      transform: scale(1.05);
+    }
+
+    .card:nth-child(5):hover {
+      transform: translateY(-10px);
+    }
+
+    .card:hover {
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Mobile: 1 column */
+    .card-container {
+      grid-template-columns: 1fr;
+    }
+
+    /* Tablet: 2 columns */
+    @media (min-width: 650px) {
+      .card-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    /* Laptop: 3 columns */
+    @media (min-width: 993px) {
+      .card-container {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    /* Desktop: 5 columns */
+    @media (min-width: 1200px) {
+      .card-container {
+        grid-template-columns: repeat(5, 1fr);
+      }
+    }
+
+
+
+
+
+
